@@ -1,38 +1,63 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(107, 157, 171, 0.5) 23.8%,
+    rgb(92, 122, 158, 0.5) 66%
+  );
+
+  background-size: cover;
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  padding: 15px 20px;
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search-form-button {
+  background-color: #885df1;
+  padding: 15px 30px;
+  border: none;
+  margin-left: 5px;
+  border-radius: 6px;
   color: white;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: #f9f7fe;
+  font-family: "Dancing Script", cursive;
+  font-family: "Dosis", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a {
+  color: #885df1;
+}
+
+main {
+  padding: 30px 0;
 }
